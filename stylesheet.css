@@ -1,0 +1,112 @@
+/* DEVELOPER: RYAN AIRD, IS117-102, SPRING 2025 */
+body {
+    background-color: #fff8f0;
+    color: #071108;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #5d737e !important;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  
+  .nav-link, .navbar-brand {
+    color: #fff8f0 !important;
+  }
+  
+  .nav-link:hover {
+    color: #d7bce8 !important;
+  }
+  
+  .jumbotron {
+    background-color: #d7bce8;
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    color: #071108;
+  }
+  
+  .jumbotron a.button {
+    background-color: #5d737e;
+    color: #fff8f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  } 
+  .card {
+    background-color: #d7bce8;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .card-title {
+    color: #a77464;
+  }
+  
+  .btn-primary {
+    background-color: #5d737e;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a77464;
+  }
+  
+  footer {
+    background-color: #071108;
+    color: #fff8f0 !important;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+  }
+  
+  footer a {
+    color: #d7bce8;
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+    color: #a77464;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 15px;
+    }
+  
+    .jumbotron h1 {
+      font-size: 2em;
+    }
+  
+    .jumbotron p {
+      font-size: 1em;
+    }
+  }
+  
+
+  @media (max-width: 600px) {
+    .jumbotron h1 {
+      font-size: 2em;
+    }
+    .jumbotron p {
+      font-size: 1em;
+    }
+  }
